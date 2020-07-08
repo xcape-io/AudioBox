@@ -21,7 +21,7 @@ This standalone PyQt5 applet can be used as a plugin for *<a href="https://xcape
 
 1. First install Python 3.8.x in `C:\Python38` ([Windows x86-64 executable installer](https://www.python.org/ftp/python/3.8.2/python-3.8.2-amd64.exe) from <a href="https://www.python.org/downloads/release/python-382/" target="_blank">python.org</a>)
 
-2. Download the code from this GitHub repository as a <a href="archive/master.zip" target="_blank">ZIP file</a>
+2. Download the code from this GitHub repository as a <a href="https://github.com/xcape-io/AudioBox/archive/master.zip" target="_blank">ZIP file</a>
 
 3. Unflate it in your plugin folder
 
