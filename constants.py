@@ -32,6 +32,7 @@ LABELS_WIDTH = 30
 # Required by the application
 BROKET_NAME = 'MQTT server connection'
 ALWAYS_ON_TOP =  True
+#HIDE_APPLET = True
 #UNSTOPPABLE =  True
 
 AUDIO_EFFECTS = {}

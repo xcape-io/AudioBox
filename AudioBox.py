@@ -30,7 +30,11 @@ class AudioBox(MqttApplet):
         self.disconnectedToMqttBroker.connect(self._AppletDialog.onDisconnectedToMqttBroker)
         self.messageReceived.connect(self._AppletDialog.onMessageReceived)
 
-        self._AppletDialog.show()
+        try:
+            if HIDE_APPLET:
+                pass
+        except:
+            self._AppletDialog.show()
 
     # __________________________________________________________________
     @pyqtSlot()
