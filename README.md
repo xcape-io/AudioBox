@@ -54,7 +54,7 @@ This standalone PyQt5 applet can be used as a plugin for *<a href="https://xcape
 
 
 ## Increase `.WAV` volume
-Use ffmpeg to increase `.WAV` volume by 150%:
+Use `ffmpeg` to increase `.WAV` volume by 150%:
 ```bash
 ffmpeg -i thunder3.wav -filter:a "volume=1.5" thunder4.wav
 ```
