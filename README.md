@@ -1,5 +1,5 @@
 # AudioBox
-*<a href="https://www.learnpyqt.com/" target="_blank">PyQt5</a> applet to launch audio effects without latency, can be used as a plugin for <a href="https://xcape.io/" target="_blank">xcape.io</a> Room.*
+*<a href="https://www.learnpyqt.com/" target="_blank">PyQt5</a> applet to launch audio effects __without latency__, can be used as a plugin for <a href="https://xcape.io/" target="_blank">xcape.io</a> Room.*
 
 In the area of Escape Room, we need to kick audio effects that play immediately to ensure the best user experience.
 
