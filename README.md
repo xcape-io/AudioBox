@@ -41,9 +41,16 @@ This standalone PyQt5 applet can be used as a plugin for *<a href="https://xcape
 
 1. Copy your audio files in `./audio` folder (use `aconv.bat` to convert files to `WAV` audio)
 
-2. Edit `constants.py` to fill `AUDIO_EFFECTS` dictionnary
+2. Edit `definitions.ini` to set `mqtt-sub-effects` MQTT topic (the applet inbox to receive effect launch commands)
 
-3. Edit `definitions.ini` to set `mqtt-sub-effects` MQTT topic (the applet inbox to receive effect launch commands)
+3. Edit `constants.py` to fill `AUDIO_EFFECTS` dictionnary
+
+* More constants:
+    ```python
+    ALWAYS_ON_TOP =  True  # the audio box is always on top of other windows
+    HIDE_APPLET = True     # the audio box is invisible (recommended when used as a plugin)
+    UNSTOPPABLE =  True    # the user can't close the audio box window
+    ```
 
 
 ## Author
